@@ -1,9 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sadiya-125/Sadiya-125/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sadiya-125/Sadiya-125/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Sadiya-125/Sadiya-125/output/github-snake.svg" />
-</picture>
-
 <div align="center">
 
   <!-- Animated Typing Header -->
@@ -13,13 +7,11 @@
   <p>
     <img src="https://komarev.com/ghpvc/?username=Sadiya-125&label=Profile%20Views&color=6366F1&style=for-the-badge" alt="Profile Views" />
     <a href="https://github.com/Sadiya-125?tab=followers"><img src="https://img.shields.io/github/followers/Sadiya-125?label=Followers&style=for-the-badge&color=6366F1" alt="Followers" /></a>
-    <a href="https://github.com/Sadiya-125"><img src="https://img.shields.io/github/stars/Sadiya-125?label=Stars&style=for-the-badge&color=6366F1" alt="Stars" /></a>
   </p>
 
 </div>
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> About Me
 
@@ -44,7 +36,7 @@ const sadiya: Developer = {
 };
 ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2gy3lk9nks&rid=giphy.gif" width="25"> Tech Arsenal
 
@@ -97,73 +89,63 @@ const sadiya: Developer = {
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Analytics
 
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Sadiya-125&show_icons=true&count_private=true&hide_border=true&title_color=6366F1&icon_color=6366F1&text_color=c9d1d9&bg_color=0d1117" alt="Sadiya's GitHub Stats" />
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadiya-125&layout=compact&hide_border=true&title_color=6366F1&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
-</div>
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sadiya-125&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadiya-125&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+</p>
 
-<div align="center">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-125&theme=tokyonight&hide_border=true&stroke=0000&background=0d1117&ring=6366F1&fire=6366F1&currStreakLabel=6366F1" alt="Streak Stats" />
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Sadiya-125&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-125&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-125&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif" width="25"> GitHub Trophies
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sadiya-125&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</div>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Sadiya-125&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25"> Top Repositories
 
-<div align="center">
-  <a href="https://github.com/Sadiya-125/SecurePay-Sentinel">
-    <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=SecurePay-Sentinel&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" />
+<p align="center">
+  <a href="https://github.com/Sadiya-125/Adventure-Academy">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=Adventure-Academy&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/Sadiya-125/NeuroPredict">
-    <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=NeuroPredict&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" />
+  <a href="https://github.com/Sadiya-125/Adventure-Academy-Server">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=Adventure-Academy-Server&theme=tokyonight&hide_border=true" />
   </a>
-</div>
+</p>
 
-<div align="center">
-  <a href="https://github.com/Sadiya-125/MediVerse">
-    <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=MediVerse&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" />
-  </a>
-  <a href="https://github.com/Sadiya-125/FinanceFlow">
-    <img width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=FinanceFlow&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" />
-  </a>
-</div>
-
-<div align="center">
+<p align="center">
   <a href="https://github.com/Sadiya-125?tab=repositories&sort=stargazers">
     <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Repos-6366F1?style=for-the-badge&logoColor=white&logo=repo"/>
   </a>
-</div>
+</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="30"> Contribution Stats
 
-<div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Sadiya-125&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true&bg_color=0d1117&title_color=6366F1" alt="Top Contributed Repo" />
-</div>
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Sadiya-125&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repo" />
+</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ber/giphy.gif" width="25"> Let's Connect
 
-<div align="center">
+<p align="center">
   <a href="https://www.linkedin.com/in/sadiya-maheen-siddiqui/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -176,23 +158,22 @@ const sadiya: Developer = {
   <a href="https://github.com/Sadiya-125" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-</div>
+</p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
 ## <img src="https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif" width="30"> Random Dev Quote
 
-<div align="center">
+<p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
-</div>
+</p>
 
-<br>
+---
 
-<div align="center">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=100&section=footer"/>
-</div>
+</p>
 
-<!-- Profile last updated: Dynamic -->
-<div align="center">
-  <i>Happy Coding! 👩‍💻</i>
-</div>
+<p align="center">
+  <i>Happy Coding! </i>
+</p>
