@@ -117,8 +117,8 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 <h2 align="center" style="color: #F85D7F;">GitHub Stats</h2>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-225">
-    <img width="50%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="GitHub Stats"/>
+  <a href="https://github.com/Sadiya-125">
+    <img width="50%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-125&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/Sadiya-225">
     <img width="33%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Top Languages"/>
@@ -126,19 +126,19 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-225">
-    <img width="55%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-225&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" alt="GitHub Streak"/>
+  <a href="https://github.com/Sadiya-125">
+    <img width="55%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-125&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" alt="GitHub Streak"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-225">
-    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
+  <a href="https://github.com/Sadiya-125">
+    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-125&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-225?tab=repositories&sort=stargazers">
+  <a href="https://github.com/Sadiya-225?tab=repositories">
     <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
   </a>
 </p>
