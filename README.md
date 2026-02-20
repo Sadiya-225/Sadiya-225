@@ -30,8 +30,6 @@ I love exploring new tech stacks and leveraging them to build impactful solution
 
 Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. in Data Science @ IIT Madras**.
 
-### More About Me:
-
 - **Research Intern @ IIIT Hyderabad** (Speech Processing & Behavioral Modelling)
 - **Data Analyst / MIS Intern @ Hyderabad Water Supply Board**
 - Published research papers on **AI-Powered Fake News Detection** and **Medical Question Answering**
