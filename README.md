@@ -1,179 +1,143 @@
-<div align="center">
-
-  <!-- Animated Typing Header -->
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%F0%9F%91%8B+Hey%2C+I'm+Sadiya+Maheen+Siddiqui;AI+%7C+ML+%7C+Full-Stack+Engineer+%F0%9F%9A%80" alt="Typing SVG" /></a>
-
-  <!-- Profile Views & Followers -->
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=Sadiya-125&label=Profile%20Views&color=6366F1&style=for-the-badge" alt="Profile Views" />
-    <a href="https://github.com/Sadiya-125?tab=followers"><img src="https://img.shields.io/github/followers/Sadiya-125?label=Followers&style=for-the-badge&color=6366F1" alt="Followers" /></a>
-  </p>
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> About Me
-
-```typescript
-const sadiya: Developer = {
-    pronouns: "she" | "her",
-    location: "Hyderabad, India",
-    education: {
-        degree: "B.E. Computer Science @ Osmania University",
-        gpa: 9.92,
-        parallel: "BS Data Science @ IIT Madras"
-    },
-    currentRole: "Research Intern @ IIIT Hyderabad",
-    focus: ["AI/ML", "Speech Processing", "Behavioral Modelling"],
-    achievements: [
-        "Multi-time National Hackathon Winner",
-        "Building AI-Powered Full-Stack Applications",
-        "Research in Agentic AI & Intelligent Systems"
-    ],
-    passion: "Solving Real-World Problems in Healthcare, Cybersecurity & Analytics",
-    motto: "Always Building. Always Learning. Always Shipping."
-};
-```
-
----
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2gy3lk9nks&rid=giphy.gif" width="25"> Tech Arsenal
-
-<div align="center">
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-
-### AI / ML / Data Science
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
-
-### Backend & APIs
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white)
-
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Analytics
-
+<!-- Header Banner -->
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sadiya-125&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadiya-125&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Sadiya%20Maheen&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20|%20ML%20|%20Full-Stack%20Developer&descAlignY=52&descSize=18"/>
 </p>
 
+<!-- Typing SVG -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Sadiya-125&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-125&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
-</p>
-
----
-
-## <img src="https://media.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif" width="25"> GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sadiya-125&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
-</p>
-
----
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25"> Top Repositories
-
-<p align="center">
-  <a href="https://github.com/Sadiya-125/Adventure-Academy">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=Adventure-Academy&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/Sadiya-125/Adventure-Academy-Server">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-125&repo=Adventure-Academy-Server&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-stack%20web%20and%20app%20developer;AI%20%26%20Machine%20Learning%20Enthusiast;Research%20Intern%20%40%20IIIT%20Hyderabad;Multi-time%20Hackathon%20Winner;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Sadiya-125?tab=repositories&sort=stargazers">
-    <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Repos-6366F1?style=for-the-badge&logoColor=white&logo=repo"/>
-  </a>
-</p>
-
----
-
-## <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="30"> Contribution Stats
-
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Sadiya-125&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repo" />
-</p>
-
----
-
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ber/giphy.gif" width="25"> Let's Connect
-
+<!-- Social Links -->
+<h3 align="center">Connect with me:</h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/sadiya-maheen-siddiqui/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sadiya-maheen-siddiqui" height="30" width="40" />
+  </a>
+  <a href="https://github.com/Sadiya-225" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Sadiya-225" height="30" width="40" />
   </a>
   <a href="mailto:adibasadiya9502@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/google.svg" alt="email" height="30" width="40" />
   </a>
   <a href="https://youtube.com/@itsedutechtime9425" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="itsedutechtime9425" height="30" width="40" />
   </a>
-  <a href="https://github.com/Sadiya-125" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</p>
+
+<br/>
+
+<!-- Profile Views & Followers -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Sadiya-225&label=Profile%20Views&color=f75c7e&style=for-the-badge" alt="Profile Views" />
+  <a href="https://github.com/Sadiya-225?tab=followers">
+    <img src="https://img.shields.io/github/followers/Sadiya-225?label=Followers&style=for-the-badge&color=f75c7e" alt="Followers" />
   </a>
 </p>
 
 ---
 
-## <img src="https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif" width="30"> Random Dev Quote
+<img align="right" alt="Coding" src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="360px"/>
+
+### About Me:
+
+- I'm currently working as a **Research Intern @ IIIT Hyderabad**
+- I'm pursuing **B.E. Computer Science @ Osmania University**
+- I'm also doing **BS Data Science @ IIT Madras**
+- My research focus includes **AI/ML, Speech Processing & Behavioral Modelling**
+- I'm a **Multi-time National Hackathon Winner**
+- Most of my projects are available on [Github](https://github.com/Sadiya-225?tab=repositories)
+- Ask me about anything tech related, I am happy to help
+- Feel free to ping me on [LinkedIn](https://www.linkedin.com/in/sadiya-maheen-siddiqui/)
+- Fun fact: **Always Building. Always Learning. Always Shipping.**
+
+<br clear="both"/>
+
+---
+
+### Languages and Tools:
+
+<a href="https://www.python.org" target="_blank"> <img align="left" alt="Python" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg"/> </a>
+<a href="https://www.tensorflow.org" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/tensorflow/tensorflow.svg" alt="tensorflow" height="42px"/> </a>
+<a href="https://pytorch.org/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/pytorch/pytorch.svg" alt="pytorch" height="42px"/> </a>
+<a href="https://www.typescriptlang.org/" target="_blank"> <img align="left" alt="TypeScript" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/typescript/typescript.svg"/> </a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img align="left" alt="JavaScript" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/javascript/javascript.svg"/> </a>
+<a href="https://reactjs.org/" target="_blank"> <img align="left" alt="React" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/react/react.svg"/> </a>
+<a href="https://nodejs.org" target="_blank"> <img align="left" alt="Node.js" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/node/node.svg"/> </a>
+<a href="https://www.java.com" target="_blank"> <img align="left" alt="Java" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/java/java.svg"/> </a>
+<a href="https://firebase.google.com/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/firebase/firebase.svg" alt="firebase" height="42px"/> </a>
+<a href="https://git-scm.com/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/git-scm/git-scm.svg" alt="git" height="42px"/> </a>
+<a href="https://www.docker.com/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/docker/docker.svg" alt="docker" height="42px"/> </a>
+<a href="https://www.figma.com/" target="_blank"> <img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/figma/figma.svg" alt="figma" height="42px"/> </a>
+
+<br/><br/><br/>
+
+---
+
+### Github Stats:
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+  <a href="https://github.com/Sadiya-225/github-stats-transparent">
+    <img src="https://github-readme-stats.vercel.app/api?username=Sadiya-225&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" height="180em"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&langs_count=8&theme=radical&hide_border=true" height="180em"/>
+  </a>
+</p>
+
+<br/>
+
+### Streak Stats:
+
+<p align="center">
+  <a href="https://github.com/Sadiya-225">
+    <img src="https://streak-stats.demolab.com?user=Sadiya-225&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  </a>
+</p>
+
+<br/>
+
+### Contribution Graph:
+
+<p align="center">
+  <a href="https://github.com/Sadiya-225">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=redical&hide_border=true&area=true" alt="Contribution Graph"/>
+  </a>
 </p>
 
 ---
 
+### GitHub Trophies:
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=100&section=footer"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Sadiya-225&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies"/>
+</p>
+
+---
+
+### Top Repositories:
+
+<p align="center">
+  <a href="https://github.com/Sadiya-225?tab=repositories&sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/badge/-View%20All%20Repos-f75c7e?style=for-the-badge&logoColor=white&logo=repo"/>
+  </a>
+</p>
+
+---
+
+### Random Dev Quote:
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
+</p>
+
+---
+
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 </p>
 
 <p align="center">
-  <i>Happy Coding! </i>
+  <i>Happy Coding!</i>
 </p>
