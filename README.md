@@ -127,11 +127,11 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 <!-- First Two (Flex 50/50 Layout like reference) -->
 <div style="width: 100%; display: flex; justify-content: center;">
   <div style="display: flex; gap: 20px; width: 85%; justify-content: center;">
-    <a href="https://github.com/Sadiya-225" style="flex: 0 1 40%;">
+    <a href="https://github.com/Sadiya-225" style="flex: 0 1 10%;">
       <img align="top" width="100%" 
         src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" />
     </a>
-    <a href="https://github.com/Sadiya-225" style="flex: 0 1 27%;">
+    <a href="https://github.com/Sadiya-225" style="flex: 0 1 5%;">
       <img align="top" width="100%" 
         src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" />
     </a>
