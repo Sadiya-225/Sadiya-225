@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Sadiya%20Maheen%20Siddiqui&font=Fira%20Code&center=true&width=380&height=50&color=F85D7F&vCenter=true&pause=10000&size=32&repeat=false" alt="Sadiya Maheen Siddiqui"/>
+  <img src="https://readme-typing-svg.demolab.com/?lines=Sadiya%20Maheen%20Siddiqui&font=Fira%20Code&center=true&width=450&height=50&color=F85D7F&vCenter=true&pause=10000&size=32&repeat=false" alt="Sadiya Maheen Siddiqui"/>
 </h1>
 
 <p align="center">
@@ -18,8 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Profile%20Views-F85D7F?style=for-the-badge&logo=eye&logoColor=white" alt="views"/>
-  <img src="https://komarev.com/ghpvc/?username=Sadiya-225&color=F85D7F&style=for-the-badge&label=COUNT" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Sadiya-225&color=F85D7F&style=for-the-badge&label=Profile%20Views" alt="Profile Views" />
 </p>
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="360px"/>
@@ -109,10 +108,10 @@ I am a versatile developer who easily adapts to different roles (Full Stack Web 
 
 <p align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="Sadiya's GitHub Stats"/>
+    <img width="49%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="Sadiya's GitHub Stats"/>
   </a>
   <a href="https://github.com/Sadiya-225">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Sadiya's Top Languages"/>
+    <img width="49%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Sadiya's Top Languages"/>
   </a>
 </p>
 
@@ -133,22 +132,22 @@ I am a versatile developer who easily adapts to different roles (Full Stack Web 
 
   <p align="left">
     <a href="https://github.com/Sadiya-225/Collab-Sphere">
-      <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-225&repo=Collab-Sphere&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="Collab-Sphere"/>
+      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Collab-Sphere&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="Collab-Sphere"/>
     </a>
     <a href="https://github.com/Sadiya-225/Avatar">
-      <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-225&repo=Avatar&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="Avatar"/>
+      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Avatar&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="Avatar"/>
     </a>
     <a href="https://github.com/Sadiya-225/MedSync-AI">
-      <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-225&repo=MedSync-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="MedSync-AI"/>
+      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=MedSync-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="MedSync-AI"/>
     </a>
     <a href="https://github.com/Sadiya-225/TruthLens">
-      <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-225&repo=TruthLens&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="TruthLens"/>
+      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=TruthLens&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="TruthLens"/>
     </a>
     <a href="https://github.com/Sadiya-225/Adventure-Academy">
-      <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-225&repo=Adventure-Academy&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="Adventure-Academy"/>
+      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Adventure-Academy&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="Adventure-Academy"/>
     </a>
     <a href="https://github.com/Sadiya-225/USB-Security-System">
-      <img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=Sadiya-225&repo=USB-Security-System&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="USB-Security-System"/>
+      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=USB-Security-System&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866" alt="USB-Security-System"/>
     </a>
   </p>
 
