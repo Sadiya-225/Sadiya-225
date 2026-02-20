@@ -29,7 +29,8 @@
 <tr>
 <td width="60%" valign="middle">
 
-I am a versatile developer who easily adapts to different roles (Full Stack Web Developer, AI/ML Engineer, App Developer, or Data Analyst) depending on what the project requires. I love exploring new tech stacks and leveraging them to build impactful solutions.
+I am a versatile developer who easily adapts to different roles (Full Stack Web Developer, AI/ML Engineer, App Developer, or Data Analyst) depending on what the project requires. 
+I love exploring new tech stacks and leveraging them to build impactful solutions.
 
 Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. in Data Science @ IIT Madras**.
 
@@ -40,7 +41,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 - Published research papers on **AI-Powered Fake News Detection** and **Medical Question Answering**
 - Multi-time **National Hackathon Winner** (15+ Hackathons)
 - Recipient of **Gold Medals** at Osmania University
-- Most of my projects are available on [Github](https://github.com/Sadiya-225?tab=repositories)
 
 </td>
 
@@ -120,11 +120,12 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
 </p>
 
-<h2 style="font-size: 22px; margin-bottom: 10px;">
+<h2 style="font-size: 22px; margin-bottom: 15px;">
   GitHub Stats
 </h2>
 
-<div style="font-size: 18px;">
+<!-- First Two (Left Aligned with Space Between) -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
 
   <a href="https://github.com/Sadiya-225">
     <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" />
@@ -134,18 +135,24 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
     <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" />
   </a>
 
-  <br/><br/>
+</div>
 
+<br><br>
+
+<!-- Third (Centered) -->
+<div align="center">
   <a href="https://github.com/Sadiya-225">
     <img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-225&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" />
   </a>
+</div>
 
-  <br/><br/>
+<br><br>
 
+<!-- Fourth (Centered) -->
+<div align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" />
+    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" />
   </a>
-
 </div>
 
 <details open>
