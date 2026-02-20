@@ -18,8 +18,9 @@ SOURCE_USER = "Sadiya-125"
 DEST_USER = "Sadiya-225"
 
 # Tokens from environment variables (for GitHub Actions) or fallback to hardcoded (for local testing)
-TOKEN = os.environ.get("GITHUB_TOKEN", "")
-DEST_TOKEN = os.environ.get("DEST_TOKEN", "")
+# Strip whitespace/newlines that may be accidentally included in secrets
+TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+DEST_TOKEN = os.environ.get("DEST_TOKEN", "").strip()
 
 # Headers for source account (reading repos)
 source_headers = {
