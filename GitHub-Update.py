@@ -12,7 +12,7 @@ def remove_readonly(func, path, _):
 def safe_rmtree(path):
     """Remove directory tree, handling Windows read-only files"""
     if os.path.exists(path):
-        shutil.rmtree(path, onexc=remove_readonly)
+        shutil.rmtree(path, onerror=remove_readonly)
 
 SOURCE_USER = "Sadiya-125"
 DEST_USER = "Sadiya-225"
