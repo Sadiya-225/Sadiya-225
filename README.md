@@ -1,5 +1,7 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Sadiya%20Maheen%20Siddiqui&font=Fira%20Code&center=true&width=450&height=50&color=F85D7F&vCenter=true&pause=10000&size=32&repeat=false" alt="Sadiya Maheen Siddiqui"/>
+  <span style="font-family: 'Fira Code', monospace; font-size: 32px; color: #F85D7F;">
+    Sadiya Maheen Siddiqui
+  </span>
 </h1>
 
 <p align="center">
@@ -23,9 +25,13 @@
 
 ## About Me
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="360px"/>
+<table>
+<tr>
+<td width="60%" valign="middle">
 
-I am a versatile developer who easily adapts to different roles (Full Stack Web Developer, AI/ML Engineer, App Developer, or Data Analyst) depending on what the project requires. I love exploring new tech stacks and leveraging them to build impactful solutions. Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. in Data Science @ IIT Madras**.
+I am a versatile developer who easily adapts to different roles (Full Stack Web Developer, AI/ML Engineer, App Developer, or Data Analyst) depending on what the project requires. I love exploring new tech stacks and leveraging them to build impactful solutions.
+
+Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. in Data Science @ IIT Madras**.
 
 ### More About Me:
 
@@ -35,6 +41,16 @@ I am a versatile developer who easily adapts to different roles (Full Stack Web 
 - Multi-time **National Hackathon Winner** (15+ Hackathons)
 - Recipient of **Gold Medals** at Osmania University
 - Most of my projects are available on [Github](https://github.com/Sadiya-225?tab=repositories)
+
+</td>
+
+<td width="40%" align="center" valign="middle">
+
+<img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="360px"/>
+
+</td>
+</tr>
+</table>
 
 <br clear="right"/>
 
