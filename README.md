@@ -121,7 +121,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
     <img width="50%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/Sadiya-225">
-    <img width="34%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Top Languages"/>
+    <img width="33%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Top Languages"/>
   </a>
 </p>
 
@@ -133,7 +133,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 
 <p align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
+    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
   </a>
 </p>
 
