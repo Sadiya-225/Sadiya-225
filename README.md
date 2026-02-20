@@ -25,7 +25,7 @@
 
 ## About Me
 
-<table>
+<table width="100%" cellspacing="0" cellpadding="0">
 <tr>
 <td width="60%" valign="middle">
 
@@ -46,7 +46,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 
 <td width="40%" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="360px"/>
+<img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="340px"/>
 
 </td>
 </tr>
@@ -120,28 +120,33 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
 </p>
 
-### Github Stats
+<h2 style="font-size: 22px; margin-bottom: 10px;">
+  GitHub Stats
+</h2>
 
-<p align="center">
-  <a href="https://github.com/Sadiya-225">
-    <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="Sadiya's GitHub Stats"/>
-  </a>
-  <a href="https://github.com/Sadiya-225">
-    <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Sadiya's Top Languages"/>
-  </a>
-</p>
+<div style="font-size: 18px;">
 
-<p align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-225&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" alt="GitHub Streak"/>
+    <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" />
   </a>
-</p>
 
-<p align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
+    <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" />
   </a>
-</p>
+
+  <br/><br/>
+
+  <a href="https://github.com/Sadiya-225">
+    <img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-225&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" />
+  </a>
+
+  <br/><br/>
+
+  <a href="https://github.com/Sadiya-225">
+    <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" />
+  </a>
+
+</div>
 
 <details open>
   <summary><h2>My Projects</h2></summary>
