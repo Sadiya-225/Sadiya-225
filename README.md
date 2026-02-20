@@ -145,5 +145,5 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 
 <!-- Snake Animation -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/output/github-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/Sadiya-125/Sadiya-125/output/github-snake-dark.svg" alt="Snake animation" />
 </p>
