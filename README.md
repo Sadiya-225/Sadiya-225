@@ -1,7 +1,5 @@
-<h1 align="center">
-  <span style="font-family: 'Fira Code', monospace; font-size: 32px; color: #F85D7F;">
-    Sadiya Maheen Siddiqui
-  </span>
+<h1 align="center" style="color: #F85D7F;">
+  Sadiya Maheen Siddiqui
 </h1>
 
 <p align="center">
@@ -127,11 +125,11 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 <!-- First Two (Flex 50/50 Layout like reference) -->
 <div style="width: 100%; display: flex; justify-content: center;">
   <div style="display: flex; gap: 20px; width: 85%; justify-content: center;">
-    <a href="https://github.com/Sadiya-225" style="flex: 0 1 10%;">
+    <a href="https://github.com/Sadiya-225" style="flex: 0 1 40%;">
       <img align="top" width="100%" 
         src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" />
     </a>
-    <a href="https://github.com/Sadiya-225" style="flex: 0 1 5%;">
+    <a href="https://github.com/Sadiya-225" style="flex: 0 1 27%;">
       <img align="top" width="100%" 
         src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" />
     </a>
@@ -160,40 +158,18 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 
 <details open>
   <summary><h2>My Projects</h2></summary>
-
   <p align="left">
-    <a href="https://github.com/Sadiya-225/HackCelerate-19">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=HackCelerate-19&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="HackCelerate-19"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/HackIndia-Spark-6-2025-ATS">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=HackIndia-Spark-6-2025-ATS&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="HackIndia-Spark-6-2025-ATS"/>
-    </a>
     <a href="https://github.com/Sadiya-225/Immunodeficiency-Agent">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Immunodeficiency-Agent&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Immunodeficiency-Agent"/>
     </a>
     <a href="https://github.com/Sadiya-225/Inventory-Management">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Inventory-Management&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Inventory-Management"/>
     </a>
-    <a href="https://github.com/Sadiya-225/Inventory-Optimizer">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Inventory-Optimizer&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Inventory-Optimizer"/>
-    </a>
     <a href="https://github.com/Sadiya-225/MedSync-AI">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=MedSync-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="MedSync-AI"/>
     </a>
-    <a href="https://github.com/Sadiya-225/MedSync-AI-Chatbot">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=MedSync-AI-Chatbot&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="MedSync-AI-Chatbot"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/MedSync-AI-Scraper">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=MedSync-AI-Scraper&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="MedSync-AI-Scraper"/>
-    </a>
     <a href="https://github.com/Sadiya-225/My99">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=My99&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="My99"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Nodebase">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Nodebase&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Nodebase"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Portfolio">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Portfolio&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Portfolio"/>
     </a>
     <a href="https://github.com/Sadiya-225/Power-Point-MCP">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Power-Point-MCP&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Power-Point-MCP"/>
@@ -201,53 +177,23 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
     <a href="https://github.com/Sadiya-225/Project-Portal">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Project-Portal&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Project-Portal"/>
     </a>
-    <a href="https://github.com/Sadiya-225/PyWeek-Submission">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=PyWeek-Submission&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="PyWeek-Submission"/>
-    </a>
     <a href="https://github.com/Sadiya-225/React-Firebase-Chat">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=React-Firebase-Chat&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="React-Firebase-Chat"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/RecruitMind-SuPrathon-2025">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=RecruitMind-SuPrathon-2025&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="RecruitMind-SuPrathon-2025"/>
     </a>
     <a href="https://github.com/Sadiya-225/Scholar-AI">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Scholar-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Scholar-AI"/>
     </a>
-    <a href="https://github.com/Sadiya-225/Scholar-AI-Companion">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Scholar-AI-Companion&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Scholar-AI-Companion"/>
-    </a>
     <a href="https://github.com/Sadiya-225/Sentinel-AI">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Sentinel-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Sentinel-AI"/>
     </a>
-    <a href="https://github.com/Sadiya-225/Social-Media-App">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Social-Media-App&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Social-Media-App"/>
-    </a>
     <a href="https://github.com/Sadiya-225/Stock-App">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Stock-App&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Stock-App"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Tech-Champions-Avatar">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Tech-Champions-Avatar&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Tech-Champions-Avatar"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Tech-Champions-HackNovate-2025">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Tech-Champions-HackNovate-2025&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Tech-Champions-HackNovate-2025"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Victory-Voyagers">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Victory-Voyagers&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Victory-Voyagers"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Village-Map">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Village-Map&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Village-Map"/>
     </a>
     <a href="https://github.com/Sadiya-225/Vlogger-App">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Vlogger-App&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Vlogger-App"/>
     </a>
     <a href="https://github.com/Sadiya-225/Wealth-Map">
       <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Wealth-Map&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Wealth-Map"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Wealth-Map-Backend">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Wealth-Map-Backend&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Wealth-Map-Backend"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/GitHub-README-Stats">
-      <img width="282" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=GitHub-README-Stats&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="GitHub-README-Stats"/>
     </a>
   </p>
 
