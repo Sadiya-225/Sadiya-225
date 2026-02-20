@@ -48,8 +48,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 </tr>
 </table>
 
-<br clear="right"/>
-
 ### Languages and Tools:
 
 <h4>Languages</h4>
@@ -123,7 +121,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
     <img width="50%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/Sadiya-225">
-    <img width="32%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Top Languages"/>
+    <img width="34%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" alt="Top Languages"/>
   </a>
 </p>
 
@@ -135,60 +133,15 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 
 <p align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="75%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
+    <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
   </a>
 </p>
 
-<details open style="border: none;">
-  <summary><h2 style="color: #F85D7F;">My Projects</h2></summary>
-
-  <div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; border: none;">
-    <a href="https://github.com/Sadiya-225/Immunodeficiency-Agent" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Immunodeficiency-Agent&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Immunodeficiency-Agent"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Inventory-Management" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Inventory-Management&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Inventory-Management"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/MedSync-AI" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=MedSync-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="MedSync-AI"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/My99" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=My99&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="My99"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Power-Point-MCP" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Power-Point-MCP&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Power-Point-MCP"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Project-Portal" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Project-Portal&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Project-Portal"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/React-Firebase-Chat" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=React-Firebase-Chat&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="React-Firebase-Chat"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Scholar-AI" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Scholar-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Scholar-AI"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Sentinel-AI" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Sentinel-AI&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Sentinel-AI"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Stock-App" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Stock-App&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Stock-App"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Vlogger-App" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Vlogger-App&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Vlogger-App"/>
-    </a>
-    <a href="https://github.com/Sadiya-225/Wealth-Map" style="border: none;">
-      <img width="300" src="https://github-readme-stats-five-rho-64.vercel.app/api/pin/?username=Sadiya-225&repo=Wealth-Map&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_description=false" alt="Wealth-Map"/>
-    </a>
-  </div>
-
-  <br>
-
-  <p align="center">
-    <a href="https://github.com/Sadiya-225?tab=repositories&sort=stargazers">
-      <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
-    </a>
-  </p>
-</details>
+<p align="center">
+  <a href="https://github.com/Sadiya-225?tab=repositories&sort=stargazers">
+    <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
+  </a>
+</p>
 
 <!-- Snake Animation -->
 <p align="center">
