@@ -124,17 +124,21 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
   GitHub Stats
 </h2>
 
-<!-- First Two (Left Aligned with Space Between) -->
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<!-- First Two (Flex 50/50 Layout like reference) -->
+<div style="width: 100%;">
+  <div style="display: flex; gap: 20px;">
 
-  <a href="https://github.com/Sadiya-225">
-    <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" />
-  </a>
+    <a href="https://github.com/Sadiya-225" style="flex: 0 1 50%;">
+      <img align="top" width="100%" 
+        src="https://github-readme-stats-five-rho-64.vercel.app/api?username=Sadiya-225&show_icons=true&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&count_private=true" />
+    </a>
 
-  <a href="https://github.com/Sadiya-225">
-    <img width="48%" src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" />
-  </a>
+    <a href="https://github.com/Sadiya-225" style="flex: 0 1 50%;">
+      <img align="top" width="100%" 
+        src="https://github-readme-stats-five-rho-64.vercel.app/api/top-langs/?username=Sadiya-225&layout=compact&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&langs_count=8" />
+    </a>
 
+  </div>
 </div>
 
 <br><br>
@@ -142,7 +146,8 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 <!-- Third (Centered) -->
 <div align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="65%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-225&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" />
+    <img width="65%" 
+      src="https://github-readme-streak-stats.herokuapp.com/?user=Sadiya-225&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" />
   </a>
 </div>
 
@@ -151,7 +156,8 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.92) and **B.S. 
 <!-- Fourth (Centered) -->
 <div align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" />
+    <img width="85%" 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-225&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" />
   </a>
 </div>
 
