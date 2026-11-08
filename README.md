@@ -13,7 +13,9 @@
   <a href="mailto:adibasadiya9502@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
   <a href="https://youtube.com/@itsedutechtime9425" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube"/></a>
   <a href="https://sadiya-maheen-siddiqui.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-1F222E?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio"/></a>
-  <a href="https://www.kaggle.com/" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="kaggle"/></a>
+  <a href="https://www.kaggle.com/sadiyamaheensiddiqui/code" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="kaggle"/></a>
+  <a href="https://www.skills.google/public_profiles/8adabdf5-b68c-4ebe-a488-8c036fba2c94" target="_blank"><img src="https://img.shields.io/badge/Google%20Skills-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="google skills"/></a>
+  <a href="https://devfest.gdghyd.in/sadiya-maheen-siddiqui" target="_blank"><img src="https://img.shields.io/badge/DevFest-34A853?style=for-the-badge&logo=googlecloud&logoColor=white" alt="devfest"/></a>
 </p>
 
 <p align="center">
@@ -24,27 +26,21 @@
 
 <table width="100%" cellspacing="0" cellpadding="0" border="0" style="border: none;">
 <tr style="border: none;">
-<td width="60%" valign="middle" style="border: none;">
+<td width="55%" valign="middle" style="border: none;">
 
-I am a versatile developer who easily adapts to different roles (Full Stack Web Developer, AI/ML Engineer, App Developer, or Data Analyst) depending on what the project requires.
-I love exploring new tech stacks and leveraging them to build impactful solutions.
+I am a versatile developer who easily adapts to different roles (Full Stack Web Developer, AI/ML Engineer, App Developer, or Data Analyst) depending on what the project requires. I love exploring new tech stacks and leveraging them to build impactful solutions.
 
 Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. in Data Science @ IIT Madras** (CGPA: 8.87).
 
-- **Software Management Trainee @ Deloitte** (DashVerify: AI-Driven Background Verification)
-- **AI Intern @ Piazza Consulting Group (PTCG India)** and **AI/Automation Intern @ Druva Moksh**
-- **Software Engineer Trainee @ Evol Jewels** and **Summer Research Intern @ IIIT Hyderabad (SRISHTI 2025)**
-- Published 2 research papers: **TruthLens** (IJSREM) and **MedSync-AI** (IJAR)
+- Software Management Trainee @ **Deloitte** (DashVerify)
 - Multi-time **National Hackathon Winner** (20+ podium finishes)
 - **Claude Certified Architect - Professional** (Anthropic)
-- Recipient of **Gold Medals** at Osmania University and **Certificate of Merit** at IIT Madras
-- Mentor (Modern Application Development I, II) and TA (Machine Learning Practice) at IIT Madras
 
 </td>
 
-<td width="40%" align="center" valign="middle" style="border: none;">
+<td width="45%" align="center" valign="middle" style="border: none;">
 
-<img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="340px"/>
+<img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/main/Stack.gif" width="380px"/>
 
 </td>
 </tr>
@@ -52,68 +48,32 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 
 ### Languages and Tools:
 
-<h4>Languages</h4>
+<h4>Languages &amp; Databases</h4>
 <p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" alt="r" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,ts,r,mysql,postgres,supabase,firebase,redis&perline=14" alt="c,cpp,java,py,js,ts,r,mysql,postgres,supabase,firebase,redis"/>
+  <br/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/> <img src="https://img.shields.io/badge/NeonDB-00E599?style=flat-square&logo=neon&logoColor=white" alt="NeonDB"/> <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=white" alt="Firestore"/> <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" alt="Pinecone"/>
 </p>
 
-<h4>Frontend Development</h4>
+<h4>Frontend, Mobile &amp; Backend</h4>
 <p align="left">
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,flutter,expo,threejs,framer,figma,nodejs,fastapi,flask,prisma,postman,vscode,appwrite&perline=14" alt="html,css,react,nextjs,tailwind,flutter,expo,threejs,framer,figma,nodejs,fastapi,flask,prisma,postman,vscode,appwrite"/>
+  <br/>
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=white" alt="React Native"/> <img src="https://img.shields.io/badge/Shadcn%20UI-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="Shadcn UI"/> <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI"/> <img src="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white" alt="tRPC"/> <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io"/> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/> <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white" alt="Clerk"/> <img src="https://img.shields.io/badge/REST%20APIs-02303A?style=flat-square" alt="REST APIs"/> <img src="https://img.shields.io/badge/Webhooks-02303A?style=flat-square" alt="Webhooks"/>
 </p>
 
-<h4>Backend Development</h4>
+<h4>AI / ML &amp; Data Science</h4>
 <p align="left">
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,pandas,numpy,matplotlib&perline=14" alt="tensorflow,pytorch,opencv,pandas,numpy,matplotlib"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/LLM%20Agents-F85D7F?style=flat-square" alt="LLM Agents"/> <img src="https://img.shields.io/badge/RAG-F85D7F?style=flat-square" alt="RAG"/> <img src="https://img.shields.io/badge/MCP%20Servers-F85D7F?style=flat-square" alt="MCP Servers"/> <img src="https://img.shields.io/badge/BERT-FF6F00?style=flat-square" alt="BERT"/> <img src="https://img.shields.io/badge/CNNs-FF6F00?style=flat-square" alt="CNNs"/> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square" alt="Seaborn"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium"/> <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=flat-square&logo=python&logoColor=white" alt="BeautifulSoup"/>
 </p>
 
-<h4>AI / ML & Data Science</h4>
+<h4>APIs, Cloud &amp; DevOps</h4>
 <p align="left">
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="40" height="40"/></a>
-</p>
-
-<h4>Databases</h4>
-<p align="left">
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://supabase.com" target="_blank" rel="noreferrer"><img src="https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png" alt="supabase" width="40" height="40"/></a>
-</p>
-
-<h4>Cloud & DevOps</h4>
-<p align="left">
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://vercel.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" alt="vercel" width="40" height="40"/></a>
-</p>
-
-<h4>Tools</h4>
-<p align="left">
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://github.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://postman.com" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>&nbsp;&nbsp;
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
+  <img src="https://skillicons.dev/icons?i=gcp,aws,vercel,docker,linux,git,github,sentry&perline=14" alt="gcp,aws,vercel,docker,linux,git,github,sentry"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/> <img src="https://img.shields.io/badge/Vapi%20AI-12A594?style=flat-square" alt="Vapi AI"/> <img src="https://img.shields.io/badge/AssemblyAI-0062FF?style=flat-square" alt="AssemblyAI"/> <img src="https://img.shields.io/badge/Inngest-000000?style=flat-square" alt="Inngest"/> <img src="https://img.shields.io/badge/Vonage%20Video%20API-871EFF?style=flat-square&logo=vonage&logoColor=white" alt="Vonage Video API"/> <img src="https://img.shields.io/badge/GitHub%20API%20(Octokit)-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub API (Octokit)"/> <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render"/> <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white" alt="XAMPP"/>
 </p>
 
 ## Experience
@@ -127,13 +87,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 | **Data Analyst / MIS Intern** | Hyderabad Water Supply Board (Onsite) | Nov 2025 - Feb 2026 | Flask-based analytics platform and revenue querying system using Python, PostgreSQL and Tableau |
 | **Summer Research Intern** | SRISHTI 2025, IIIT Hyderabad (Onsite) | Jul 2025 - Jul 2026 | Research on AI/ML systems in speech processing, deception detection and behavioral modelling |
 | **Cyber Security Intern** | Supraja Technologies (Hybrid) | May 2024 - Aug 2024 | MySQL-based USB security system with OTP authentication and system protection automation |
-
-## Featured Projects
-
-- **Collab-Sphere**: AI-powered project management platform with GitHub integration, AI meeting summarization, code embeddings, intelligent Q&A, voice assistant support and Stripe payments
-- **Avatar**: AI-powered career coach with text and voice mock interviews, resume generation, personalized job recommendations and real-time feedback (Vapi AI, Inngest)
-- **MedSync-AI**: Secure telemedicine platform with HD video consultations, RAG-powered medical assistance, OCR-based record analysis, Pinecone vector DB and AES-256 encrypted payments
-- **Wealth-Map**: AI-powered real estate intelligence platform with Python-based property scraping, interactive maps, analytics dashboards, address-based search and Supabase-backed listing management
 
 ## Publications
 
@@ -164,9 +117,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 
 ## Achievements
 
-<details>
-<summary><b>Hackathon wins and podium finishes (click to expand)</b></summary>
-
 - **Winner**: Megathon X: Singularity 2026 (IIITH, Lloyds-B Problem Statement)
 - **Winner**: Rebrand, Saavan 2026 (IITM)
 - **Winner**: Hack Novate 2025 (MCET, Agentic AI Track)
@@ -188,8 +138,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 - **2nd Runner-Up**: Pitchstorm 2025 (IITM)
 - **2nd Runner-Up**: Hack for Infinity (UCEOU, AI for Ability Track)
 - **Consolation**: Hackathon 2026 (St. Anns College for Women, AI Track)
-
-</details>
 
 - **NPTEL Star (2024-2026)**: Believer, Discipline Star, Enthusiast and Motivated Learner
 
@@ -220,9 +168,4 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
   <a href="https://github.com/Sadiya-225?tab=repositories">
     <img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/>
   </a>
-</p>
-
-<!-- Snake Animation -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Sadiya-225/Sadiya-225/output/github-snake-dark.svg" alt="Snake Animation" />
 </p>
