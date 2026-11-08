@@ -52,30 +52,93 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 
 <h4>Languages &amp; Databases</h4>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,ts,r,mysql,postgres,supabase,firebase,redis&perline=14" alt="c,cpp,java,py,js,ts,r,mysql,postgres,supabase,firebase,redis"/>
-  <br/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/> <img src="https://img.shields.io/badge/NeonDB-00E599?style=flat-square&logo=neon&logoColor=white" alt="NeonDB"/> <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=white" alt="Firestore"/> <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" alt="Pinecone"/>
+  <img src="assets/icons/c.svg" width="48" height="48" alt="C" title="C"/>
+  <img src="assets/icons/cpp.svg" width="48" height="48" alt="C++" title="C++"/>
+  <img src="assets/icons/java.svg" width="48" height="48" alt="Java" title="Java"/>
+  <img src="assets/icons/python.svg" width="48" height="48" alt="Python" title="Python"/>
+  <img src="assets/icons/javascript.svg" width="48" height="48" alt="JavaScript" title="JavaScript"/>
+  <img src="assets/icons/typescript.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
+  <img src="assets/icons/r.svg" width="48" height="48" alt="R" title="R"/>
+  <img src="assets/icons/sql.svg" width="48" height="48" alt="SQL" title="SQL"/>
+  <img src="assets/icons/mysql.svg" width="48" height="48" alt="MySQL" title="MySQL"/>
+  <img src="assets/icons/postgres.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"/>
+  <img src="assets/icons/neon.svg" width="48" height="48" alt="NeonDB" title="NeonDB"/>
+  <img src="assets/icons/supabase.svg" width="48" height="48" alt="Supabase" title="Supabase"/>
+  <img src="assets/icons/firebase.svg" width="48" height="48" alt="Firebase / Firestore" title="Firebase / Firestore"/>
+  <img src="assets/icons/redis.svg" width="48" height="48" alt="Redis" title="Redis"/>
+  <img src="assets/icons/pinecone.svg" width="48" height="48" alt="Pinecone Vector DB" title="Pinecone Vector DB"/>
 </p>
 
 <h4>Frontend, Mobile &amp; Backend</h4>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,flutter,threejs,figma,nodejs,fastapi,flask,prisma,postman,vscode&perline=14" alt="html,css,react,nextjs,tailwind,flutter,threejs,figma,nodejs,fastapi,flask,prisma,postman,vscode"/>
-  <br/>
-  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=white" alt="React Native"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo"/> <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/> <img src="https://img.shields.io/badge/Appwrite-F02E65?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite"/> <img src="https://img.shields.io/badge/Shadcn%20UI-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="Shadcn UI"/> <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI"/> <img src="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white" alt="tRPC"/> <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io"/> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/> <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white" alt="Clerk"/> <img src="https://img.shields.io/badge/REST%20APIs-02303A?style=flat-square" alt="REST APIs"/> <img src="https://img.shields.io/badge/Webhooks-02303A?style=flat-square" alt="Webhooks"/>
+  <img src="assets/icons/html.svg" width="48" height="48" alt="HTML" title="HTML"/>
+  <img src="assets/icons/css.svg" width="48" height="48" alt="CSS" title="CSS"/>
+  <img src="assets/icons/react.svg" width="48" height="48" alt="React" title="React"/>
+  <img src="assets/icons/nextjs.svg" width="48" height="48" alt="Next.js" title="Next.js"/>
+  <img src="assets/icons/reactnative.svg" width="48" height="48" alt="React Native" title="React Native"/>
+  <img src="assets/icons/expo.svg" width="48" height="48" alt="Expo" title="Expo"/>
+  <img src="assets/icons/flutter.svg" width="48" height="48" alt="Flutter" title="Flutter"/>
+  <img src="assets/icons/tailwind.svg" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS"/>
+  <img src="assets/icons/shadcn.svg" width="48" height="48" alt="Shadcn UI" title="Shadcn UI"/>
+  <img src="assets/icons/radix.svg" width="48" height="48" alt="Radix UI" title="Radix UI"/>
+  <img src="assets/icons/framer.svg" width="48" height="48" alt="Framer Motion" title="Framer Motion"/>
+  <img src="assets/icons/threejs.svg" width="48" height="48" alt="Three.js" title="Three.js"/>
+  <img src="assets/icons/zod.svg" width="48" height="48" alt="Zod" title="Zod"/>
+  <img src="assets/icons/figma.svg" width="48" height="48" alt="Figma" title="Figma"/>
+  <img src="assets/icons/nodejs.svg" width="48" height="48" alt="Node.js" title="Node.js"/>
+  <img src="assets/icons/fastapi.svg" width="48" height="48" alt="FastAPI" title="FastAPI"/>
+  <img src="assets/icons/flask.svg" width="48" height="48" alt="Flask" title="Flask"/>
+  <img src="assets/icons/rest.svg" width="48" height="48" alt="REST APIs" title="REST APIs"/>
+  <img src="assets/icons/trpc.svg" width="48" height="48" alt="tRPC" title="tRPC"/>
+  <img src="assets/icons/webhooks.svg" width="48" height="48" alt="Webhooks" title="Webhooks"/>
+  <img src="assets/icons/celery.svg" width="48" height="48" alt="Celery" title="Celery"/>
+  <img src="assets/icons/socketio.svg" width="48" height="48" alt="Socket.io" title="Socket.io"/>
+  <img src="assets/icons/prisma.svg" width="48" height="48" alt="Prisma ORM" title="Prisma ORM"/>
+  <img src="assets/icons/clerk.svg" width="48" height="48" alt="Clerk (Auth)" title="Clerk (Auth)"/>
+  <img src="assets/icons/appwrite.svg" width="48" height="48" alt="Appwrite" title="Appwrite"/>
+  <img src="assets/icons/postman.svg" width="48" height="48" alt="Postman" title="Postman"/>
+  <img src="assets/icons/vscode.svg" width="48" height="48" alt="VS Code" title="VS Code"/>
 </p>
 
 <h4>AI / ML &amp; Data Science</h4>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&perline=14" alt="tensorflow,pytorch,opencv,sklearn"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib"/> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/LLM%20Agents-F85D7F?style=flat-square" alt="LLM Agents"/> <img src="https://img.shields.io/badge/RAG-F85D7F?style=flat-square" alt="RAG"/> <img src="https://img.shields.io/badge/MCP%20Servers-F85D7F?style=flat-square" alt="MCP Servers"/> <img src="https://img.shields.io/badge/BERT-FF6F00?style=flat-square" alt="BERT"/> <img src="https://img.shields.io/badge/CNNs-FF6F00?style=flat-square" alt="CNNs"/> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square" alt="Seaborn"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium"/> <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=flat-square&logo=python&logoColor=white" alt="BeautifulSoup"/>
+  <img src="assets/icons/tensorflow.svg" width="48" height="48" alt="TensorFlow" title="TensorFlow"/>
+  <img src="assets/icons/pytorch.svg" width="48" height="48" alt="PyTorch" title="PyTorch"/>
+  <img src="assets/icons/bert.svg" width="48" height="48" alt="BERT" title="BERT"/>
+  <img src="assets/icons/cnn.svg" width="48" height="48" alt="CNNs" title="CNNs"/>
+  <img src="assets/icons/opencv.svg" width="48" height="48" alt="OpenCV" title="OpenCV"/>
+  <img src="assets/icons/huggingface.svg" width="48" height="48" alt="Hugging Face" title="Hugging Face"/>
+  <img src="assets/icons/langchain.svg" width="48" height="48" alt="LangChain" title="LangChain"/>
+  <img src="assets/icons/langgraph.svg" width="48" height="48" alt="LangGraph" title="LangGraph"/>
+  <img src="assets/icons/llmagents.svg" width="48" height="48" alt="LLM Agents" title="LLM Agents"/>
+  <img src="assets/icons/rag.svg" width="48" height="48" alt="RAG" title="RAG"/>
+  <img src="assets/icons/mcp.svg" width="48" height="48" alt="MCP Servers" title="MCP Servers"/>
+  <img src="assets/icons/pandas.svg" width="48" height="48" alt="Pandas" title="Pandas"/>
+  <img src="assets/icons/numpy.svg" width="48" height="48" alt="NumPy" title="NumPy"/>
+  <img src="assets/icons/matplotlib.svg" width="48" height="48" alt="Matplotlib" title="Matplotlib"/>
+  <img src="assets/icons/seaborn.svg" width="48" height="48" alt="Seaborn" title="Seaborn"/>
+  <img src="assets/icons/selenium.svg" width="48" height="48" alt="Selenium" title="Selenium"/>
+  <img src="assets/icons/beautifulsoup.svg" width="48" height="48" alt="BeautifulSoup" title="BeautifulSoup"/>
 </p>
 
 <h4>APIs, Cloud &amp; DevOps</h4>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=gcp,aws,vercel,docker,linux,git,github,sentry&perline=14" alt="gcp,aws,vercel,docker,linux,git,github,sentry"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/> <img src="https://img.shields.io/badge/Vapi%20AI-12A594?style=flat-square" alt="Vapi AI"/> <img src="https://img.shields.io/badge/AssemblyAI-0062FF?style=flat-square" alt="AssemblyAI"/> <img src="https://img.shields.io/badge/Inngest-000000?style=flat-square" alt="Inngest"/> <img src="https://img.shields.io/badge/Vonage%20Video%20API-871EFF?style=flat-square&logo=vonage&logoColor=white" alt="Vonage Video API"/> <img src="https://img.shields.io/badge/GitHub%20API%20(Octokit)-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub API (Octokit)"/> <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render"/> <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white" alt="XAMPP"/>
+  <img src="assets/icons/assemblyai.svg" width="48" height="48" alt="AssemblyAI" title="AssemblyAI"/>
+  <img src="assets/icons/vapi.svg" width="48" height="48" alt="Vapi AI" title="Vapi AI"/>
+  <img src="assets/icons/octokit.svg" width="48" height="48" alt="GitHub API (Octokit)" title="GitHub API (Octokit)"/>
+  <img src="assets/icons/vonage.svg" width="48" height="48" alt="Vonage Video API" title="Vonage Video API"/>
+  <img src="assets/icons/stripe.svg" width="48" height="48" alt="Stripe" title="Stripe"/>
+  <img src="assets/icons/inngest.svg" width="48" height="48" alt="Inngest" title="Inngest"/>
+  <img src="assets/icons/gcp.svg" width="48" height="48" alt="Google Cloud Platform" title="Google Cloud Platform"/>
+  <img src="assets/icons/aws.svg" width="48" height="48" alt="AWS Cloud" title="AWS Cloud"/>
+  <img src="assets/icons/vercel.svg" width="48" height="48" alt="Vercel" title="Vercel"/>
+  <img src="assets/icons/render.svg" width="48" height="48" alt="Render" title="Render"/>
+  <img src="assets/icons/docker.svg" width="48" height="48" alt="Docker" title="Docker"/>
+  <img src="assets/icons/linux.svg" width="48" height="48" alt="Linux" title="Linux"/>
+  <img src="assets/icons/git.svg" width="48" height="48" alt="Git" title="Git"/>
+  <img src="assets/icons/github.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
+  <img src="assets/icons/sentry.svg" width="48" height="48" alt="Sentry" title="Sentry"/>
+  <img src="assets/icons/xampp.svg" width="48" height="48" alt="XAMPP" title="XAMPP"/>
 </p>
 
 ## Experience
@@ -140,7 +203,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 - **2nd Runner-Up**: Pitchstorm 2025 (IITM)
 - **2nd Runner-Up**: Hack for Infinity (UCEOU, AI for Ability Track)
 - **Consolation**: Hackathon 2026 (St. Anns College for Women, AI Track)
-
 - **NPTEL Star (2024-2026)**: Believer, Discipline Star, Enthusiast and Motivated Learner
 
 <h2 align="center" style="color: #F85D7F;">GitHub Stats</h2>
@@ -162,7 +224,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 
 <p align="center">
   <a href="https://github.com/Sadiya-225">
-    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-125&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
+    <img width="85%" src="assets/activity-graph.svg" alt="Contribution Graph"/>
   </a>
 </p>
 
