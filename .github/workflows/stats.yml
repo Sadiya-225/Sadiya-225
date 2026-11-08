@@ -1,0 +1,42 @@
+name: Update GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout stats generator
+        uses: actions/checkout@v4
+        with:
+          repository: Sadiya-225/GitHub-README-Stats
+          path: .stats-generator
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install generator dependencies
+        run: npm ci
+        working-directory: .stats-generator
+
+      - name: Generate cards
+        env:
+          PAT_1: ${{ secrets.SOURCE_GITHUB_TOKEN }}
+        run: node scripts/generate-cards.mjs .stats-generator assets
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "Update stats cards [skip ci]"
+          git push
