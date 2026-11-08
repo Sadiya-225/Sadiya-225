@@ -448,7 +448,7 @@ def main():
     if probe and ls_refs(f"https://x-access-token:{TOKEN}@github.com/{SOURCE_USER}/{probe['name']}.git") is None:
         kind = "fine-grained" if TOKEN.startswith("github_pat_") else "classic" if TOKEN.startswith("ghp_") else "other (" + TOKEN[:4] + "...)"
         d = request("GET", f"{API}/repos/{SOURCE_USER}/{probe['name']}/contents/", headers=source_headers)
-        print(f"Diagnostics: token type={kind}; contents API -> {d.status_code} {d.json().get('message', '') if d.headers.get('content-type', '').startswith('application/json') else ''}")
+        print(f"Diagnostics: token type={kind}; contents API -> HTTP {d.status_code}")
         print(f"Diagnostics: X-OAuth-Scopes={d.headers.get('X-OAuth-Scopes')!r}; accepted permissions={d.headers.get('X-Accepted-GitHub-Permissions')!r}")
         sys.exit(
             "GITHUB_TOKEN can list your repos but cannot read the contents of private ones "
