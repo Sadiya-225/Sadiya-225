@@ -2,12 +2,26 @@ name: Mirror Repositories
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch: 
+    - cron: '0 * * * *' # hourly; unchanged repos are skipped cheaply
+  workflow_dispatch:
+    inputs:
+      prune_deleted:
+        description: 'Delete destination repos that no longer exist in the source'
+        type: boolean
+        default: true
+
+# Never run two mirrors at once (avoids duplicate repo creation / push races)
+concurrency:
+  group: mirror-repos
+  cancel-in-progress: false
+
+permissions:
+  contents: read
 
 jobs:
   mirror:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -27,4 +41,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SOURCE_GITHUB_TOKEN }}
           DEST_TOKEN: ${{ secrets.DEST_GITHUB_TOKEN }}
+          PRUNE_DELETED: ${{ github.event_name == 'workflow_dispatch' && inputs.prune_deleted || 'true' }}
+          MIRROR_VISIBILITY: ${{ vars.MIRROR_VISIBILITY || 'public' }}
         run: python GitHub-Update.py
