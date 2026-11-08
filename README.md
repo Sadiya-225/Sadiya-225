@@ -212,7 +212,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 
 <p align="center">
   <a href="https://github.com/Sadiya-125">
-    <img width="85%" src="https://ghchart.rshah.org/F85D7F/Sadiya-125" alt="Contribution Graph"/>
+    <img width="85%" src="assets/activity-graph.svg" alt="Contribution Graph"/>
   </a>
 </p>
 
