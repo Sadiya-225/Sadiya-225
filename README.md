@@ -10,7 +10,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sadiya-maheen-siddiqui/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
   <a href="https://github.com/Sadiya-225" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
-  <a href="mailto:adibasadiya9502@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
   <a href="https://youtube.com/@itsedutechtime9425" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube"/></a>
   <a href="https://sadiya-maheen-siddiqui.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-1F222E?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio"/></a>
   <a href="https://www.kaggle.com/sadiyamaheensiddiqui/code" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="kaggle"/></a>

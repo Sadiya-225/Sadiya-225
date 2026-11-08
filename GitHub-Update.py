@@ -38,6 +38,8 @@ DEST_USER = "Sadiya-225"
 # The profile repo of the destination account; mirroring over it would overwrite
 # this very repository (workflow + README), so it is never touched.
 PROTECTED_DEST_REPOS = {DEST_USER.lower()}
+# Repos whose copy on DEST_USER must always stay private (lowercase names).
+FORCE_PRIVATE = {"medsync-ai"}
 
 TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 DEST_TOKEN = os.environ.get("DEST_TOKEN", "").strip()
@@ -476,7 +478,10 @@ def main():
                 failed.append(name)
                 continue
             dest_repo = dest_repos[name.lower()]
-            ok, entry = mirror_repo(repo, dest_repo["name"], state.get(name.lower(), {}))
+            entry = state.get(name.lower(), {})
+            if name.lower() in FORCE_PRIVATE:
+                entry = {**entry, "mode": "private"}  # copy stays private; finalize_repo_state enforces it
+            ok, entry = mirror_repo(repo, dest_repo["name"], entry)
             if ok:
                 state[name.lower()] = entry
                 save_state(state)
