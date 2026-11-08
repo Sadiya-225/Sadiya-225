@@ -201,7 +201,8 @@ def finalize_repo_state(repo, dest_repo_name):
 
 
 def git(args, cwd=None):
-    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True)
+    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
+    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, env=env)
 
 
 def ls_refs(url):
