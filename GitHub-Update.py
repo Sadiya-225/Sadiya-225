@@ -62,10 +62,15 @@ def redact(text):
     return text
 
 
-def request(method, url, retries=3, **kwargs):
+def request(method, url, retries=6, **kwargs):
     """requests wrapper that retries on rate limits and transient 5xx errors."""
     for attempt in range(retries):
         r = requests.request(method, url, timeout=60, **kwargs)
+        if r.status_code in (403, 429) and "secondary rate limit" in r.text.lower():
+            wait = int(r.headers.get("Retry-After", 0)) or 60 * (attempt + 1)
+            print(f"  Secondary rate limit hit, sleeping {wait}s")
+            time.sleep(wait)
+            continue
         if r.status_code in (403, 429) and r.headers.get("X-RateLimit-Remaining") == "0":
             reset = int(r.headers.get("X-RateLimit-Reset", time.time() + 60))
             wait = min(max(reset - time.time(), 1), 300)
@@ -149,6 +154,7 @@ def ensure_dest_repo(repo, dest_repos):
     if r.status_code == 201:
         dest_repos[key] = r.json()
         print(f"  Created repo: {repo['name']}")
+        time.sleep(5)  # stay under GitHub's secondary rate limit for content creation
         return True
     print(f"  Failed to create {repo['name']}: {r.status_code} {r.json().get('message', r.text)}")
     return False
@@ -205,11 +211,12 @@ def git(args, cwd=None):
     return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, env=env)
 
 
-def ls_refs(url):
+def ls_refs(url, quiet=False):
     """Return {ref: sha} for branches and tags, or None if the remote can't be read."""
     result = git(["ls-remote", "--heads", "--tags", url])
     if result.returncode != 0:
-        print(f"  ls-remote failed: {redact(result.stderr).strip()}")
+        if not quiet:
+            print(f"  ls-remote failed: {redact(result.stderr).strip()}")
         return None
     refs = {}
     for line in result.stdout.splitlines():
@@ -228,7 +235,7 @@ def mirror_repo(repo, dest_name):
     if src_refs is None:
         print("  Failed to read source refs")
         return False
-    if ls_refs(dest_url) == src_refs:
+    if ls_refs(dest_url, quiet=True) == src_refs:
         print("  Already up to date")
         return True
 
@@ -299,6 +306,15 @@ def main():
     print(f"Fetching repositories from {SOURCE_USER}...")
     source_repos = get_source_repos()
     dest_repos = get_dest_repos()
+    # The API listing only needs metadata access; cloning needs contents access.
+    # Fail fast with a clear message instead of failing once per repo.
+    probe = next((r for r in source_repos if r["private"]), None)
+    if probe and ls_refs(f"https://x-access-token:{TOKEN}@github.com/{SOURCE_USER}/{probe['name']}.git") is None:
+        sys.exit(
+            "GITHUB_TOKEN can list your repos but cannot read the contents of private ones "
+            f"(tried {probe['name']}). Use a classic token with the 'repo' scope, or a fine-grained "
+            "token with access to all repositories and 'Contents: Read-only' permission."
+        )
     print(f"Found {len(source_repos)} source repositories ({len(dest_repos)} already on {DEST_USER})\n")
 
     success, failed = 0, []
