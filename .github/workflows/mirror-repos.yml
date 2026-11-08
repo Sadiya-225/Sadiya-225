@@ -35,7 +35,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests git-filter-repo
+
+      - name: Restore mirror state
+        uses: actions/cache/restore@v4
+        with:
+          path: mirror-state.json
+          key: mirror-state-${{ github.run_id }}
+          restore-keys: |
+            mirror-state-
 
       - name: Run mirror script
         env:
@@ -44,3 +52,10 @@ jobs:
           PRUNE_DELETED: ${{ github.event_name == 'workflow_dispatch' && inputs.prune_deleted || 'true' }}
           MIRROR_VISIBILITY: ${{ vars.MIRROR_VISIBILITY || 'public' }}
         run: python GitHub-Update.py
+
+      - name: Save mirror state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: mirror-state.json
+          key: mirror-state-${{ github.run_id }}

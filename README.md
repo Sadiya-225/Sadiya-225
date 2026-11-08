@@ -59,14 +59,12 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
   <img src="assets/icons/javascript.svg" width="48" height="48" alt="JavaScript" title="JavaScript"/>
   <img src="assets/icons/typescript.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
   <img src="assets/icons/r.svg" width="48" height="48" alt="R" title="R"/>
-  <img src="assets/icons/sql.svg" width="48" height="48" alt="SQL" title="SQL"/>
   <img src="assets/icons/mysql.svg" width="48" height="48" alt="MySQL" title="MySQL"/>
   <img src="assets/icons/postgres.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"/>
   <img src="assets/icons/neon.svg" width="48" height="48" alt="NeonDB" title="NeonDB"/>
   <img src="assets/icons/supabase.svg" width="48" height="48" alt="Supabase" title="Supabase"/>
   <img src="assets/icons/firebase.svg" width="48" height="48" alt="Firebase / Firestore" title="Firebase / Firestore"/>
   <img src="assets/icons/redis.svg" width="48" height="48" alt="Redis" title="Redis"/>
-  <img src="assets/icons/pinecone.svg" width="48" height="48" alt="Pinecone Vector DB" title="Pinecone Vector DB"/>
 </p>
 
 <h4>Frontend, Mobile &amp; Backend</h4>
@@ -75,7 +73,6 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
   <img src="assets/icons/css.svg" width="48" height="48" alt="CSS" title="CSS"/>
   <img src="assets/icons/react.svg" width="48" height="48" alt="React" title="React"/>
   <img src="assets/icons/nextjs.svg" width="48" height="48" alt="Next.js" title="Next.js"/>
-  <img src="assets/icons/reactnative.svg" width="48" height="48" alt="React Native" title="React Native"/>
   <img src="assets/icons/expo.svg" width="48" height="48" alt="Expo" title="Expo"/>
   <img src="assets/icons/flutter.svg" width="48" height="48" alt="Flutter" title="Flutter"/>
   <img src="assets/icons/tailwind.svg" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS"/>
@@ -88,9 +85,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
   <img src="assets/icons/nodejs.svg" width="48" height="48" alt="Node.js" title="Node.js"/>
   <img src="assets/icons/fastapi.svg" width="48" height="48" alt="FastAPI" title="FastAPI"/>
   <img src="assets/icons/flask.svg" width="48" height="48" alt="Flask" title="Flask"/>
-  <img src="assets/icons/rest.svg" width="48" height="48" alt="REST APIs" title="REST APIs"/>
   <img src="assets/icons/trpc.svg" width="48" height="48" alt="tRPC" title="tRPC"/>
-  <img src="assets/icons/webhooks.svg" width="48" height="48" alt="Webhooks" title="Webhooks"/>
   <img src="assets/icons/celery.svg" width="48" height="48" alt="Celery" title="Celery"/>
   <img src="assets/icons/socketio.svg" width="48" height="48" alt="Socket.io" title="Socket.io"/>
   <img src="assets/icons/prisma.svg" width="48" height="48" alt="Prisma ORM" title="Prisma ORM"/>
@@ -104,31 +99,19 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 <p align="left">
   <img src="assets/icons/tensorflow.svg" width="48" height="48" alt="TensorFlow" title="TensorFlow"/>
   <img src="assets/icons/pytorch.svg" width="48" height="48" alt="PyTorch" title="PyTorch"/>
-  <img src="assets/icons/bert.svg" width="48" height="48" alt="BERT" title="BERT"/>
-  <img src="assets/icons/cnn.svg" width="48" height="48" alt="CNNs" title="CNNs"/>
   <img src="assets/icons/opencv.svg" width="48" height="48" alt="OpenCV" title="OpenCV"/>
   <img src="assets/icons/huggingface.svg" width="48" height="48" alt="Hugging Face" title="Hugging Face"/>
   <img src="assets/icons/langchain.svg" width="48" height="48" alt="LangChain" title="LangChain"/>
-  <img src="assets/icons/langgraph.svg" width="48" height="48" alt="LangGraph" title="LangGraph"/>
-  <img src="assets/icons/llmagents.svg" width="48" height="48" alt="LLM Agents" title="LLM Agents"/>
-  <img src="assets/icons/rag.svg" width="48" height="48" alt="RAG" title="RAG"/>
   <img src="assets/icons/mcp.svg" width="48" height="48" alt="MCP Servers" title="MCP Servers"/>
   <img src="assets/icons/pandas.svg" width="48" height="48" alt="Pandas" title="Pandas"/>
   <img src="assets/icons/numpy.svg" width="48" height="48" alt="NumPy" title="NumPy"/>
-  <img src="assets/icons/matplotlib.svg" width="48" height="48" alt="Matplotlib" title="Matplotlib"/>
-  <img src="assets/icons/seaborn.svg" width="48" height="48" alt="Seaborn" title="Seaborn"/>
   <img src="assets/icons/selenium.svg" width="48" height="48" alt="Selenium" title="Selenium"/>
-  <img src="assets/icons/beautifulsoup.svg" width="48" height="48" alt="BeautifulSoup" title="BeautifulSoup"/>
 </p>
 
 <h4>APIs, Cloud &amp; DevOps</h4>
 <p align="left">
-  <img src="assets/icons/assemblyai.svg" width="48" height="48" alt="AssemblyAI" title="AssemblyAI"/>
-  <img src="assets/icons/vapi.svg" width="48" height="48" alt="Vapi AI" title="Vapi AI"/>
-  <img src="assets/icons/octokit.svg" width="48" height="48" alt="GitHub API (Octokit)" title="GitHub API (Octokit)"/>
   <img src="assets/icons/vonage.svg" width="48" height="48" alt="Vonage Video API" title="Vonage Video API"/>
   <img src="assets/icons/stripe.svg" width="48" height="48" alt="Stripe" title="Stripe"/>
-  <img src="assets/icons/inngest.svg" width="48" height="48" alt="Inngest" title="Inngest"/>
   <img src="assets/icons/gcp.svg" width="48" height="48" alt="Google Cloud Platform" title="Google Cloud Platform"/>
   <img src="assets/icons/aws.svg" width="48" height="48" alt="AWS Cloud" title="AWS Cloud"/>
   <img src="assets/icons/vercel.svg" width="48" height="48" alt="Vercel" title="Vercel"/>

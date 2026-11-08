@@ -16,10 +16,14 @@ Environment
   DEST_TOKEN     token for DEST_USER (repo scope; delete_repo if PRUNE_DELETED=true)
   PRUNE_DELETED  delete destination repos that no longer exist in the source
                  (default: true; set "false" to only report them)
+  STATE_FILE     JSON file remembering how each copy was published (default: mirror-state.json)
   MIRROR_VISIBILITY  "public" (default, legacy behaviour: every copy is public) or
                  "match" (copies keep the source's public/private visibility)
 """
+import hashlib
+import json
 import os
+import re
 import shutil
 import stat
 import subprocess
@@ -41,6 +45,28 @@ PRUNE_DELETED = os.environ.get("PRUNE_DELETED", "true").strip().lower() != "fals
 MIRROR_VISIBILITY = os.environ.get("MIRROR_VISIBILITY", "public").strip().lower()
 
 API = "https://api.github.com"
+
+# Remembers, per repo, how the copy is published so hourly runs stay cheap and a
+# private fallback is never flipped public again:
+#   {repo_lowercase: {"mode": "public" | "sanitized" | "private", "src": <hash of source refs>}}
+STATE_FILE = os.environ.get("STATE_FILE", "mirror-state.json")
+
+
+def load_state():
+    try:
+        with open(STATE_FILE, encoding="utf-8") as fh:
+            return json.load(fh)
+    except (OSError, ValueError):
+        return {}
+
+
+def save_state(state):
+    with open(STATE_FILE, "w", encoding="utf-8") as fh:
+        json.dump(state, fh, indent=2, sort_keys=True)
+
+
+def refs_hash(refs):
+    return hashlib.sha1(json.dumps(sorted(refs.items())).encode()).hexdigest()
 
 
 def headers(token):
@@ -185,7 +211,7 @@ def sync_metadata(repo, dest_repo):
             print(f"  Warning: topics update failed: {r.status_code} {r.text}")
 
 
-def finalize_repo_state(repo, dest_repo_name):
+def finalize_repo_state(repo, dest_repo_name, mode="public"):
     """After refs are pushed: align default branch, then archived state (archived repos are read-only)."""
     patch = {}
     default_branch = repo.get("default_branch")
@@ -195,7 +221,7 @@ def finalize_repo_state(repo, dest_repo_name):
     current = r.json()
     if default_branch and current.get("default_branch") != default_branch:
         patch["default_branch"] = default_branch
-    want_private = repo["private"] if MIRROR_VISIBILITY == "match" else False
+    want_private = True if mode == "private" else (repo["private"] if MIRROR_VISIBILITY == "match" else False)
     if bool(current.get("private")) != bool(want_private):
         patch["private"] = bool(want_private)
     if bool(current.get("archived")) != bool(repo.get("archived")):
@@ -208,7 +234,7 @@ def finalize_repo_state(repo, dest_repo_name):
 
 def git(args, cwd=None):
     env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
-    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, env=env)
+    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace", env=env)
 
 
 def ls_refs(url, quiet=False):
@@ -227,43 +253,153 @@ def ls_refs(url, quiet=False):
     return refs
 
 
-def mirror_repo(repo, dest_name):
+SECRET_BLOCK = "GH013"
+TOKEN_RE = re.compile(r"[A-Za-z0-9_\-+/.]{20,}={0,2}")
+MAX_CLEAN_ROUNDS = 10
+
+
+def blocked_secret_tokens(stderr, mirror_dir):
+    """Extract the secret strings GitHub push protection blocked.
+
+    GitHub reports only commit + path:line, not the value, so read that line and
+    take its long, key-looking tokens (mixed letters and digits, or 32+ chars).
+    """
+    text = re.sub(r"^remote:\s?", "", stderr, flags=re.M)
+    tokens = set()
+    for commit, path, line in re.findall(r"commit:\s*([0-9a-f]{40})\s*\n\s*path:\s*(.+?):(\d+)\s*\n", text):
+        blob = git(["show", f"{commit}:{path}"], cwd=mirror_dir)
+        lines = blob.stdout.splitlines()
+        if blob.returncode != 0 or int(line) > len(lines):
+            continue
+        for tok in TOKEN_RE.findall(lines[int(line) - 1]):
+            if len(tok) >= 32 or (re.search(r"\d", tok) and re.search(r"[A-Za-z]", tok)):
+                tokens.add(tok)
+    return tokens
+
+
+def rewrite_history(mirror_dir, work, replacements=(), strip_big=False):
+    """git filter-repo: redact literal strings and/or drop blobs GitHub would reject."""
+    cmd = ["filter-repo", "--force"]
+    if replacements:
+        rules = os.path.join(work, "replacements.txt")
+        with open(rules, "w", encoding="utf-8") as fh:
+            for tok in sorted(replacements):
+                fh.write(f"literal:{tok}==>***REMOVED***\n")
+        cmd += ["--replace-text", rules]
+    if strip_big:
+        cmd += ["--strip-blobs-bigger-than", "95M"]
+    result = git(cmd, cwd=mirror_dir)
+    if result.returncode != 0:
+        print(f"  git filter-repo failed: {redact(result.stderr).strip()[:500]}")
+    return result.returncode == 0
+
+
+def push_refs(mirror_dir, dest_url):
+    return git(
+        ["push", "--prune", "--force", dest_url, "+refs/heads/*:refs/heads/*", "+refs/tags/*:refs/tags/*"],
+        cwd=mirror_dir,
+    )
+
+
+def clone_source(src_url, work, name):
+    mirror_dir = os.path.join(work, f"{name}.git")
+    safe_rmtree(mirror_dir)
+    result = git(["clone", "--bare", src_url, mirror_dir])
+    if result.returncode != 0:
+        print(f"  Failed to clone: {redact(result.stderr)}")
+        return None
+    return mirror_dir
+
+
+def set_dest_private(dest_name):
+    r = request("PATCH", f"{API}/repos/{DEST_USER}/{dest_name}", headers=dest_headers, json={"private": True})
+    return r.status_code == 200
+
+
+def mirror_repo(repo, dest_name, entry):
+    """Mirror one repo. Returns (ok, entry) where entry is the new state for this repo."""
     src_url = f"https://x-access-token:{TOKEN}@github.com/{SOURCE_USER}/{repo['name']}.git"
     dest_url = f"https://x-access-token:{DEST_TOKEN}@github.com/{DEST_USER}/{dest_name}.git"
+    mode = entry.get("mode", "public")
 
     src_refs = ls_refs(src_url)
     if src_refs is None:
         print("  Failed to read source refs")
-        return False
-    if ls_refs(dest_url, quiet=True) == src_refs:
-        print("  Already up to date")
-        return True
+        return False, entry
+    src_hash = refs_hash(src_refs)
+
+    if mode == "public":
+        up_to_date = ls_refs(dest_url, quiet=True) == src_refs
+    else:  # rewritten or private: dest refs differ from source, so compare against what we last saw
+        up_to_date = entry.get("src") == src_hash
+    if up_to_date:
+        print(f"  Already up to date ({mode})")
+        return True, entry
 
     work = tempfile.mkdtemp(prefix="mirror-")
     try:
-        mirror_dir = os.path.join(work, "repo.git")
         print(f"  Cloning {repo['name']}...")
-        result = git(["clone", "--bare", src_url, mirror_dir])
-        if result.returncode != 0:
-            print(f"  Failed to clone: {redact(result.stderr)}")
-            return False
+        mirror_dir = clone_source(src_url, work, "repo")
+        if mirror_dir is None:
+            return False, entry
 
-        # Force-push only branches and tags (GitHub rejects its hidden refs/pull/*,
-        # which is what makes `git push --mirror` fail). --prune removes refs that
-        # were deleted in the source.
+        def done(new_mode):
+            return True, {"mode": new_mode, "src": src_hash}
+
+        # Private fallback copies are private on purpose: push everything unmodified.
+        if mode == "private":
+            if not set_dest_private(dest_name):
+                print("  Failed to make the copy private; refusing to push")
+                return False, entry
+            result = push_refs(mirror_dir, dest_url)
+            if result.returncode == 0 or not src_refs:
+                return done("private")
+            print(f"  Failed to push: {redact(result.stderr)[:800]}")
+            return False, entry
+
         print(f"  Pushing to {DEST_USER}/{dest_name}...")
-        result = git(
-            ["push", "--prune", "--force", dest_url,
-             "+refs/heads/*:refs/heads/*", "+refs/tags/*:refs/tags/*"],
-            cwd=mirror_dir,
-        )
+        cleaned = mode == "sanitized"
+        for round_no in range(MAX_CLEAN_ROUNDS + 1):
+            result = push_refs(mirror_dir, dest_url)
+            if result.returncode == 0 or not src_refs:
+                return done("sanitized" if cleaned else "public")
+
+            err = result.stderr
+            secrets_blocked = SECRET_BLOCK in err and "secret" in err.lower()
+            too_big = "GH001" in err and "exceeds" in err.lower()
+            if not (secrets_blocked or too_big) or round_no == MAX_CLEAN_ROUNDS:
+                print(f"  Failed to push: {redact(err)[:800]}")
+                return False, entry
+
+            if secrets_blocked:
+                tokens = blocked_secret_tokens(err, mirror_dir)
+                if not tokens:
+                    print("  Push blocked by secret scanning but no secret could be located; falling back to private")
+                    break
+                print(f"  Secret scanning blocked the push; redacting {len(tokens)} secret(s) from history (round {round_no + 1})")
+                ok = rewrite_history(mirror_dir, work, replacements=tokens)
+            else:
+                print("  Files over GitHub's size limit found; stripping blobs larger than 95 MB from history")
+                ok = rewrite_history(mirror_dir, work, strip_big=True)
+            if not ok:
+                break
+            cleaned = True
+        else:
+            return False, entry
+
+        # Could not be cleaned automatically: publish an unmodified copy privately instead.
+        print("  Falling back to a PRIVATE copy")
+        if not set_dest_private(dest_name):
+            print("  Failed to make the copy private; refusing to push")
+            return False, entry
+        mirror_dir = clone_source(src_url, work, "repo-private")
+        if mirror_dir is None:
+            return False, entry
+        result = push_refs(mirror_dir, dest_url)
         if result.returncode != 0:
-            # An empty source repo has nothing to push; that is not an error.
-            if not src_refs:
-                return True
-            print(f"  Failed to push: {redact(result.stderr)}")
-            return False
-        return True
+            print(f"  Failed to push private copy: {redact(result.stderr)[:800]}")
+            return False, entry
+        return done("private")
     finally:
         safe_rmtree(work)
 
@@ -317,7 +453,8 @@ def main():
         )
     print(f"Found {len(source_repos)} source repositories ({len(dest_repos)} already on {DEST_USER})\n")
 
-    success, failed = 0, []
+    state = load_state()
+    success, failed, sanitized, private_copies = 0, [], [], []
 
     for repo in source_repos:
         name = repo["name"]
@@ -333,10 +470,17 @@ def main():
                 failed.append(name)
                 continue
             dest_repo = dest_repos[name.lower()]
-            if mirror_repo(repo, dest_repo["name"]):
+            ok, entry = mirror_repo(repo, dest_repo["name"], state.get(name.lower(), {}))
+            if ok:
+                state[name.lower()] = entry
+                save_state(state)
                 sync_metadata(repo, dest_repo)
-                finalize_repo_state(repo, dest_repo["name"])
+                finalize_repo_state(repo, dest_repo["name"], entry.get("mode", "public"))
                 success += 1
+                if entry.get("mode") == "sanitized":
+                    sanitized.append(name)
+                elif entry.get("mode") == "private":
+                    private_copies.append(name)
             else:
                 failed.append(name)
         except Exception as exc:  # keep going so one bad repo can't block the rest
@@ -354,6 +498,16 @@ def main():
         else:
             print(f"Orphan on {DEST_USER} (not in source, left untouched): {orphan['name']}")
 
+    # Forget repos deleted at the source so a re-created repo of the same name starts clean.
+    for key in list(state):
+        if key not in source_names:
+            del state[key]
+    save_state(state)
+
+    if sanitized:
+        print("\nPublished with secrets redacted from history: " + ", ".join(sanitized))
+    if private_copies:
+        print("Kept PRIVATE on " + DEST_USER + " (secrets could not be cleaned automatically): " + ", ".join(private_copies))
     print(f"\nComplete! Success: {success}, Failed: {len(failed)}")
     if failed:
         print("Failed repos: " + ", ".join(failed))
