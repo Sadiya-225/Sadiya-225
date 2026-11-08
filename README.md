@@ -33,8 +33,10 @@ I am a versatile developer who easily adapts to different roles (Full Stack Web 
 Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. in Data Science @ IIT Madras** (CGPA: 8.87).
 
 - Software Management Trainee @ **Deloitte** (DashVerify)
+- Published 2 research papers: **TruthLens** (IJSREM) and **MedSync-AI** (IJAR)
 - Multi-time **National Hackathon Winner** (20+ podium finishes)
 - **Claude Certified Architect - Professional** (Anthropic)
+- Recipient of **Gold Medals** at Osmania University and **Certificate of Merit** at IIT Madras
 
 </td>
 
@@ -57,16 +59,16 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 
 <h4>Frontend, Mobile &amp; Backend</h4>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,flutter,expo,threejs,framer,figma,nodejs,fastapi,flask,prisma,postman,vscode,appwrite&perline=14" alt="html,css,react,nextjs,tailwind,flutter,expo,threejs,framer,figma,nodejs,fastapi,flask,prisma,postman,vscode,appwrite"/>
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,flutter,threejs,figma,nodejs,fastapi,flask,prisma,postman,vscode&perline=14" alt="html,css,react,nextjs,tailwind,flutter,threejs,figma,nodejs,fastapi,flask,prisma,postman,vscode"/>
   <br/>
-  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=white" alt="React Native"/> <img src="https://img.shields.io/badge/Shadcn%20UI-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="Shadcn UI"/> <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI"/> <img src="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white" alt="tRPC"/> <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io"/> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/> <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white" alt="Clerk"/> <img src="https://img.shields.io/badge/REST%20APIs-02303A?style=flat-square" alt="REST APIs"/> <img src="https://img.shields.io/badge/Webhooks-02303A?style=flat-square" alt="Webhooks"/>
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=white" alt="React Native"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo"/> <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/> <img src="https://img.shields.io/badge/Appwrite-F02E65?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite"/> <img src="https://img.shields.io/badge/Shadcn%20UI-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="Shadcn UI"/> <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI"/> <img src="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white" alt="tRPC"/> <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod"/> <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io"/> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/> <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white" alt="Clerk"/> <img src="https://img.shields.io/badge/REST%20APIs-02303A?style=flat-square" alt="REST APIs"/> <img src="https://img.shields.io/badge/Webhooks-02303A?style=flat-square" alt="Webhooks"/>
 </p>
 
 <h4>AI / ML &amp; Data Science</h4>
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,pandas,numpy,matplotlib&perline=14" alt="tensorflow,pytorch,opencv,pandas,numpy,matplotlib"/>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&perline=14" alt="tensorflow,pytorch,opencv,sklearn"/>
   <br/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/LLM%20Agents-F85D7F?style=flat-square" alt="LLM Agents"/> <img src="https://img.shields.io/badge/RAG-F85D7F?style=flat-square" alt="RAG"/> <img src="https://img.shields.io/badge/MCP%20Servers-F85D7F?style=flat-square" alt="MCP Servers"/> <img src="https://img.shields.io/badge/BERT-FF6F00?style=flat-square" alt="BERT"/> <img src="https://img.shields.io/badge/CNNs-FF6F00?style=flat-square" alt="CNNs"/> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square" alt="Seaborn"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium"/> <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=flat-square&logo=python&logoColor=white" alt="BeautifulSoup"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib"/> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph"/> <img src="https://img.shields.io/badge/LLM%20Agents-F85D7F?style=flat-square" alt="LLM Agents"/> <img src="https://img.shields.io/badge/RAG-F85D7F?style=flat-square" alt="RAG"/> <img src="https://img.shields.io/badge/MCP%20Servers-F85D7F?style=flat-square" alt="MCP Servers"/> <img src="https://img.shields.io/badge/BERT-FF6F00?style=flat-square" alt="BERT"/> <img src="https://img.shields.io/badge/CNNs-FF6F00?style=flat-square" alt="CNNs"/> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square" alt="Seaborn"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium"/> <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=flat-square&logo=python&logoColor=white" alt="BeautifulSoup"/>
 </p>
 
 <h4>APIs, Cloud &amp; DevOps</h4>
@@ -144,7 +146,7 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 <h2 align="center" style="color: #F85D7F;">GitHub Stats</h2>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-125">
+  <a href="https://github.com/Sadiya-225">
     <img width="50%" src="assets/stats.svg" alt="GitHub Stats"/>
   </a>
   <a href="https://github.com/Sadiya-225">
@@ -153,14 +155,14 @@ Currently pursuing **B.E. in CSE @ Osmania University** (CGPA: 9.90) and **B.S. 
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-125">
+  <a href="https://github.com/Sadiya-225">
     <img width="55%" src="https://streak-stats.demolab.com/?user=Sadiya-125&theme=react&background=1F222E&hide_border=true&ring=F85D7F&fire=F85D7F&currStreakLabel=F85D7F" alt="GitHub Streak"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sadiya-125">
-    <img width="85%" src="assets/activity-graph.svg" alt="Contribution Graph"/>
+  <a href="https://github.com/Sadiya-225">
+    <img width="85%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sadiya-125&theme=react-dark&bg_color=1F222E&hide_border=true&line=F85D7F&point=F8D866&area=true&area_color=F85D7F" alt="Contribution Graph"/>
   </a>
 </p>
 
