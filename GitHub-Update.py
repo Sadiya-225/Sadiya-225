@@ -209,6 +209,7 @@ def ls_refs(url):
     """Return {ref: sha} for branches and tags, or None if the remote can't be read."""
     result = git(["ls-remote", "--heads", "--tags", url])
     if result.returncode != 0:
+        print(f"  ls-remote failed: {redact(result.stderr).strip()}")
         return None
     refs = {}
     for line in result.stdout.splitlines():
