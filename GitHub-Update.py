@@ -234,7 +234,9 @@ def finalize_repo_state(repo, dest_repo_name, mode="public"):
 
 def git(args, cwd=None):
     env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
-    return subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace", env=env)
+    # actions/checkout leaves its own credential in git config (http.extraheader), which
+    # overrides the token in the URL and makes private repos look "not found". Clear it.
+    return subprocess.run(["git", "-c", "http.https://github.com/.extraheader=", *args], cwd=cwd, capture_output=True, text=True, encoding="utf-8", errors="replace", env=env)
 
 
 def ls_refs(url, quiet=False):
