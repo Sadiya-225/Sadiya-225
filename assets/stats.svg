@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Sadiya Maheen Siddiqui's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 1, Total Commits  (last year) : 1495, Total PRs: 13, Total Issues: 0, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 1, Total Commits  (last year) : 1515, Total PRs: 13, Total Issues: 0, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 207.46292136520043;
+        stroke-dashoffset: 207.25832524201763;
       }
     }
   
